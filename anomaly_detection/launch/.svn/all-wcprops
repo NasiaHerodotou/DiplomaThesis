@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/ROStesting/!svn/ver/120/trunk/philosophers/src/anomaly_detection/launch
+END
+exprandom.launch
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/ROStesting/!svn/ver/95/trunk/philosophers/src/anomaly_detection/launch/exprandom.launch
+END
+expconstant.launch
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/ROStesting/!svn/ver/120/trunk/philosophers/src/anomaly_detection/launch/expconstant.launch
+END
+expempty.launch
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/ROStesting/!svn/ver/95/trunk/philosophers/src/anomaly_detection/launch/expempty.launch
+END

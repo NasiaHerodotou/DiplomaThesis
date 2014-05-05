@@ -1,0 +1,120 @@
+#!/usr/bin/env python
+
+
+import sys
+import rospy
+from dining_philosopher_communications.msg import hungerMsg
+import numpy as np
+import csv
+from numpy import *
+from sklearn import svm
+import pickle
+
+class AnomalyClassifier():
+	def __init__(self,pinakasA,mywidth):
+		print "anomaly classifier!"
+		self.width=mywidth
+		print "para8iro=", self.width
+		self.i=0
+		self.testarray=np.zeros((0,self.width))
+		print "pinakas testSet=", self.testarray
+		
+		
+
+	def isAnomaly(self,row):
+		print "trehei i isAnomaly tis AnomalyClassifier!"
+		print "row=",row
+		self.checkRowShape(row)
+		print "i=", self.i
+		if self.i==0:
+			self.testarray=self.testSet2
+			self.i+=1
+		elif self.i<self.width:
+			print "yes!"
+			self.testarray=np.vstack((self.testarray,self.testSet2))
+			print "teliko testSet=", self.testarray
+			print "shape telikou testset=", self.testarray.shape
+			self.i+=1
+		elif self.i>=self.width:
+			self.testarrayT=self.testarray.ravel()
+			print "amastrofo=", self.testarrayT
+			print "diastaseis anastrofou=", self.testarrayT.shape
+			diastasi=self.testarrayT.shape[0]
+			self.testarrayT=np.reshape(self.testarrayT,(1,diastasi))
+			print "i aigia egennisen afko=", self.testarrayT.shape
+			print "to afko=", self.testarrayT
+			self.result=self.classifyAnomaly(self.testarrayT)
+<<<<<<< .mine
+			return self.result
+=======
+			if self.result==True:
+				return True
+			elif self.result==False:
+				return False
+>>>>>>> .r86
+			self.testarray=np.delete(self.testarray, (0), axis=0) #diagrafo tin proti grammi tou pinaka gia na dehtei tin epomeni
+			print "kainourios pinakas=", self.testarray
+			print "shape kainouriou pinaka=", self.testarray.shape
+			self.i-=1
+			
+			
+		
+		
+		
+			
+	def trainClassifier(self,convertedDataSet):
+		raise NotImplementedError 
+		
+	def checkRowShape(self,row):
+		print "trehei i checkRowShape"
+		print "row=", row
+		print "shape of row=", row.shape
+		self.testSet=row
+		if row.shape==(): #se periptosi pou ehoume 1 filosofo i proti grammi dinei 1 monadiko stoiheio to opoio ehei shape ()
+			print "nasia rules!"
+			self.B=np.reshape(row,(1,1))
+			self.testSet=self.B
+			print "testSet shape=", self.testSet.shape
+			self.shape=10
+		else:
+			self.shape=row.shape[0] #mege8os protis diastasis
+			 
+			
+			
+		if row.shape==(self.shape,): #ama leitourgoun polloi filosofoi i proti grammi tou pinaka dinei element me shape (ari8mos filosofon,)
+			self.B=np.reshape(row,(self.shape,1))
+			self.testSet=self.B
+		
+		print "testSet=", self.testSet
+		print "testSet shape=", self.testSet.shape
+		self.testSet2=self.testSet.T #to antistrefo giati gia kapoio periergo logo den doulevei diaforetika
+		print "testSet2=", self.testSet2.shape
+		
+			
+	def trainWithDataset(self,pinakasA,width):
+		print "trehei i trainWithSet tis AnomalyClassifier!"
+		self.pinakas=pinakasA
+		self.width=width
+		print "A=", self.pinakas
+		print "megalo shape=", self.pinakas.shape      
+		stepsize=1
+		n=self.pinakas.shape[0]
+		if self.pinakas.shape==(n,):
+			self.pinakas=np.reshape(self.pinakas,(n,1))
+		print "kainourio shape pinaka=",self.pinakas.shape
+		A=np.hstack(self.pinakas[i:1+n+i-self.width:stepsize] for i in range(0,self.width) )
+		print "pinakas meta to para8iro", A
+		mytrainSet=A
+		print "mege8os protis diastasis=", A.shape[0]
+		shape=A.shape[0] #mege8os protis diastasis
+		if A.shape==(shape,): #ama leitourgei mono enas filosofos prepei na ginei reshape o pinakas gia na doule4oun oi ta3inomites
+			B=np.reshape(A,(shape,1))
+			mytrainSet=B
+		print mytrainSet.shape
+		self.convertedDataSet=mytrainSet
+		self.trainClassifier(self.convertedDataSet)
+		
+	def classifyAnomaly(self,testSet2):
+		raise NotImplementedError
+		
+			

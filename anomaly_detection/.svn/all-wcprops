@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/ROStesting/!svn/ver/139/trunk/philosophers/src/anomaly_detection
+END
+package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/ROStesting/!svn/ver/104/trunk/philosophers/src/anomaly_detection/package.xml
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/ROStesting/!svn/ver/98/trunk/philosophers/src/anomaly_detection/CMakeLists.txt
+END
+report.doc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/ROStesting/!svn/ver/111/trunk/philosophers/src/anomaly_detection/report.doc
+END

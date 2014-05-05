@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/ROStesting/!svn/ver/139/trunk/philosophers/src/anomaly_detection/scripts
+END
+launcher.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/ROStesting/!svn/ver/138/trunk/philosophers/src/anomaly_detection/scripts/launcher.py
+END
+imlistening.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/ROStesting/!svn/ver/111/trunk/philosophers/src/anomaly_detection/scripts/imlistening.py
+END
+my_hunger_listener.py
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ROStesting/!svn/ver/138/trunk/philosophers/src/anomaly_detection/scripts/my_hunger_listener.py
+END
+gmm_anomaly_classifier.py
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/ROStesting/!svn/ver/111/trunk/philosophers/src/anomaly_detection/scripts/gmm_anomaly_classifier.py
+END
+my_hunger_listener.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ROStesting/!svn/ver/139/trunk/philosophers/src/anomaly_detection/scripts/my_hunger_listener.pyc
+END
+anomalyclassifier.py
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ROStesting/!svn/ver/135/trunk/philosophers/src/anomaly_detection/scripts/anomalyclassifier.py
+END
+classifier_trainer.py
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ROStesting/!svn/ver/138/trunk/philosophers/src/anomaly_detection/scripts/classifier_trainer.py
+END
+svm_anomaly_classifier.py
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/ROStesting/!svn/ver/111/trunk/philosophers/src/anomaly_detection/scripts/svm_anomaly_classifier.py
+END
+classifier_tester.py
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ROStesting/!svn/ver/126/trunk/philosophers/src/anomaly_detection/scripts/classifier_tester.py
+END
+plot_the_philosopher.py
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ROStesting/!svn/ver/139/trunk/philosophers/src/anomaly_detection/scripts/plot_the_philosopher.py
+END
+plot_launcher.py
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/ROStesting/!svn/ver/136/trunk/philosophers/src/anomaly_detection/scripts/plot_launcher.py
+END

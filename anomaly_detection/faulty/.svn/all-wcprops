@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/ROStesting/!svn/ver/139/trunk/philosophers/src/anomaly_detection/faulty
+END
+changed_hunger_philosophers.py
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ROStesting/!svn/ver/139/trunk/philosophers/src/anomaly_detection/faulty/changed_hunger_philosophers.py
+END
+my_philosopher.py
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/ROStesting/!svn/ver/89/trunk/philosophers/src/anomaly_detection/faulty/my_philosopher.py
+END
+normal_philosopher.py
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ROStesting/!svn/ver/133/trunk/philosophers/src/anomaly_detection/faulty/normal_philosopher.py
+END
+constant_philosopher.py
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ROStesting/!svn/ver/138/trunk/philosophers/src/anomaly_detection/faulty/constant_philosopher.py
+END
+forkClass.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/ROStesting/!svn/ver/131/trunk/philosophers/src/anomaly_detection/faulty/forkClass.py
+END
+starving_philosopher.py
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ROStesting/!svn/ver/138/trunk/philosophers/src/anomaly_detection/faulty/starving_philosopher.py
+END
+empty_philosopher.py
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ROStesting/!svn/ver/138/trunk/philosophers/src/anomaly_detection/faulty/empty_philosopher.py
+END
+random_philosopher.py
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ROStesting/!svn/ver/91/trunk/philosophers/src/anomaly_detection/faulty/random_philosopher.py
+END
+fork_philosopher.py
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ROStesting/!svn/ver/105/trunk/philosophers/src/anomaly_detection/faulty/fork_philosopher.py
+END
+negative_philosopher.py
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ROStesting/!svn/ver/138/trunk/philosophers/src/anomaly_detection/faulty/negative_philosopher.py
+END
